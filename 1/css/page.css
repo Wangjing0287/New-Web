@@ -10,6 +10,12 @@ page{
     text-align: center;
 
 }
+#z{
+    font-size: 36px;
+    display:block;
+    animation: z 10s infinite;
+}
+
 #c{
     background-color: green;
     animation: c 10s infinite;
@@ -26,6 +32,14 @@ page{
     background-color: lightgray;
     animation: d 10s infinite;
 }
+@keyframes z{
+    0%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 100}
+    100%{opacity: 0}
+}
+
 @keyframes c {
     0% {opacity: 0}
     20% {opacity: 100}
